@@ -24,6 +24,9 @@ img {
 iframe {
 	width: 100%;
 }
+.tac {
+	text-align: center;
+}
 
 /* Header */
 
@@ -82,10 +85,23 @@ iframe {
 	margin-top: 5% !important;
 	margin-bottom: 5%;
 }
+.title {
+	text-align: center;
+
+}
+.content2 {
+	padding: 3%;
+	
+}
 .about {
 	margin-top: 5%;
 }
 /* Footer */
+footer {
+	margin-top: 2%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
 footer a {
 	text-decoration: none;
 }
@@ -107,11 +123,8 @@ footer a {
 		width: 100%;
 	}
 	.col-7 {
+		margin-top: 50px;
 		width: 100%;
-	}
-
-	header {
-		margin-bottom: 0px;
 	}
 }
 
