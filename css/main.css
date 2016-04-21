@@ -1,4 +1,7 @@
 /* Generales */
+body {
+	background-color: #2b2232;
+}
 .bgs {
 	background-repeat: no-repeat;
 	background-position: center;
@@ -16,7 +19,7 @@ img {
 	max-width: 100%;
 }
 .bgPurple {
-
+	background-color: #17101b;
 }
 iframe {
 	width: 100%;
@@ -26,7 +29,19 @@ iframe {
 .bgSpring {
 	background: url(../image/header-image.jpg);
 	background-size: cover;
+	padding:10% 20%;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
 } 
+.scame {
+	padding:5%;
+	text-align: center;
+	margin: 5%;
+}
+.scame h1 {
+	font-size: 5em;
+}
 
 
 /* Artículos */
@@ -43,6 +58,11 @@ iframe {
 	background-size: cover;
 }
 /* Contenidos */
+
+/* Footer */
+footer a {
+	text-decoration: none;
+}
 
 /* Responsive */
 
