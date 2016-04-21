@@ -33,6 +33,24 @@ iframe {
 .inli {
 	display: inline;
 }
+/* Nav */
+#navi {
+	background-color: #17101b;
+	margin-bottom: 2%
+}
+#navi img {
+	width: 50%;
+}
+nav a {
+	margin-right: 2%;
+}
+nav ul {
+	margin-top: 6%;
+}
+.burger {
+	display: none;
+	visibility: hidden;
+}
 /* Header */
 .bgSpring {
 	background: url(../image/header-image.jpg);
@@ -136,21 +154,25 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {
-	body {
-		background-color: red;
-	}
 	.cont {
 		width: 100%;
 	}
 	.col-4 {
 		width: 100%;
+		margin-right: 0px;
 	}
 	.col-7 {
-		margin-top: 50px;
 		width: 100%;
 	}
-	#about { 
+	#about, .nnn { 
 		visibility: hidden;
 		display: none;
+	}
+	.burger {
+		display: inline;
+		visibility: visible !important;
+		float: right;
+		font-size: 50px;
+		margin-top: 2%;
 	}
 }
