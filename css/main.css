@@ -1,3 +1,49 @@
+/* Generales */
+.bgs {
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.wh, p, i {
+	color: white;
+	font-family: "Open sans", sans-serif;
+}
+h1, h3 {
+	color: #ffbb65;
+	font-weight: bolder;
+	font-family: "Courgette", serif;
+}
+img {
+	max-width: 100%;
+}
+.bgPurple {
+
+}
+iframe {
+	width: 100%;
+}
+
+/* Header */
+.bgSpring {
+	background: url(../image/header-image.jpg);
+	background-size: cover;
+} 
+
+
+/* Artículos */
+.fl1 {
+	background: url(../image/image7.jpg);
+	background-size: cover;
+}
+.fl2 {
+	background: url(../image/image3.jpg);
+	background-size: cover;
+}
+.fl3 {
+	background: url(../image/image2.jpg);
+	background-size: cover;
+}
+/* Contenidos */
+
 /* Responsive */
 
 @media screen and (max-width : 920px) {
@@ -7,3 +53,49 @@
 @media screen and (max-width: 600px) {
 
 }
+
+
+/* 
+ @media (max-width: 535px) {
+	.container {
+	    margin:0 !important;
+	    padding:0 !important;
+	}
+
+	.row {
+	    margin:0 !important;
+	    padding:0 !important;
+	}
+
+	.col-6 {
+		width: 100%;
+		float: left;
+		display: block;
+	}	
+	.inputs {
+		width: 100% !important;
+	}
+
+	.mtmb {
+		margin-top: 2%;
+		margin-bottom:2%;
+	}
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {s
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+*/

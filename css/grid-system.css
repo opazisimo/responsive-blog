@@ -11,6 +11,7 @@
   margin-right: auto;
   margin-left: auto;
   width: 100%;
+  max-width: 1020px;
 }
 .row {
 	width: 100%;
@@ -91,47 +92,4 @@
 .col-12 {
 	/* (12 / 12) x 100 */
 	width: 100%;
-}
-
-@media (max-width: 535px) {
-	.container {
-	    margin:0 !important;
-	    padding:0 !important;
-	}
-
-	.row {
-	    margin:0 !important;
-	    padding:0 !important;
-	}
-
-	.col-6 {
-		width: 100%;
-		float: left;
-		display: block;
-	}	
-	.inputs {
-		width: 100% !important;
-	}
-
-	.mtmb {
-		margin-top: 2%;
-		margin-bottom:2%;
-	}
-}
-
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {s
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
 }
