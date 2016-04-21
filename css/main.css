@@ -26,6 +26,7 @@ iframe {
 }
 
 /* Header */
+
 .bgSpring {
 	background: url(../image/header-image.jpg);
 	background-size: cover;
@@ -43,8 +44,15 @@ iframe {
 	font-size: 5em;
 }
 
-
 /* Artículos */
+.super {
+	margin-bottom: 5%;
+	margin-top: 1%;
+}
+
+.three {
+	padding-bottom: 10px;
+}
 .fl1 {
 	background: url(../image/image7.jpg);
 	background-size: cover;
@@ -57,8 +65,26 @@ iframe {
 	background: url(../image/image2.jpg);
 	background-size: cover;
 }
+.cont {
+	width: 100%;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 6%;
+	position: relative;
+	top: 200px;
+	margin-top: 5%;	
+}
+.entrada {
+	height: 230px;
+}
 /* Contenidos */
-
+.contenidos {
+	margin-top: 5% !important;
+	margin-bottom: 5%;
+}
+.about {
+	margin-top: 5%;
+}
 /* Footer */
 footer a {
 	text-decoration: none;
@@ -67,11 +93,26 @@ footer a {
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
+	
 }
 
 @media screen and (max-width: 600px) {
+	body {
+		background-color: red;
+	}
+	.cont {
+		width: 100%;
+	}
+	.col-4 {
+		width: 100%;
+	}
+	.col-7 {
+		width: 100%;
+	}
 
+	header {
+		margin-bottom: 0px;
+	}
 }
 
 
